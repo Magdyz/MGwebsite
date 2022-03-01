@@ -2,10 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
-@media (max-width: 780px) {
-.images {
-	display: none;	
-}
+
 body{
   background-color: #1B1734 ;
 }
