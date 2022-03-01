@@ -1,13 +1,22 @@
-*{
-	margin: 0;
-	padding: 0;
-}
+*{margin: 0;padding: 0;}
 
 body{
-  background-color: #1B1734 ;
+	background-color: #1B1734;
+	display:grid;
+	grid-template-rows: 10ch 20ch 20ch;
+	justify-items: start;
+}
+
+div#introText {
+    	display: flex;
+    	flex-wrap: wrap;
 }
 
 .text,.restOfText,#photography,#coding{
-  color: white;
-  padding: 0.2em;
+	color: white;
+	padding: inherit;
+}
+
+element.style {
+    	margin-left: 0.3em;
 }
