@@ -23,10 +23,9 @@ body{
 }
 
 .midConainer {
-    ex: ;
-    flex-direction: column;
-    align-items: stretch;
+    display: grid;
     margin: 1em 3em 0;
+    justify-items: center;
 }
 
 #introText {
