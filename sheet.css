@@ -12,11 +12,22 @@ div#introText {
     	flex-wrap: wrap;
 }
 
+img#logo {
+    	width: 20%;
+    	height: auto;
+    	opacity: 1;
+    	transition: opacity .15s ease-out;
+}
+
+h1 {
+    	font-size: 5vh;
+}
+
 .text,.restOfText,#photography,#coding{
 	color: white;
 	padding: inherit;
 }
 
 h1.restOfText {
-    margin-left: 0.3em;
+    	margin-left: 0.3em;
 }
