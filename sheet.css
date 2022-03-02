@@ -22,15 +22,14 @@ body{
     	height: 100%;
     	z-index: -3;
 }
+
 #background {
-    	display: grid;
-    	position: absolute;
-    	z-index: -1;
-    	width: 100%;
-    	height: auto;
-    	justify-content: center;
-    	align-items: center;
-    	margin-top: 20vh;
+    display: grid;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    justify-content: center;
 }
 
 #topBar {
