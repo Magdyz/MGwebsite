@@ -18,12 +18,16 @@ body{
     	margin-top: 30%;
 }
 
-div#introText {
+#topBar {
+    margin: 2em;
+}
+
+#introText {
     	display: flex;
     	flex-wrap: wrap;
 }
 
-img#logo {
+#logo {
     	width: 10vh;
     	height: auto;
     	opacity: 1;
