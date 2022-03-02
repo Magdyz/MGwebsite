@@ -21,12 +21,10 @@ img#logo {
 
 h1 {
     	font-size: 5vh;
+	color: white;
+
 }
 
-.text,.restOfText,#photography,#coding{
-	color: white;
-	padding: inherit;
-}
 
 h1.restOfText {
     	margin-left: 0.3em;
