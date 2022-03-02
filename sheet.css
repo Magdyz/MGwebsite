@@ -42,7 +42,8 @@ body{
 
 h1 {
     	font-size: 5vh;
-	color: white;
+	font-family: 'Inconsolata', monospace;
+	color: #ff7e43;
 
 }
 
