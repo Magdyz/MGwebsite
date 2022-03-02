@@ -1,12 +1,27 @@
 
 body{
-	background-color: #1B1734;
 	display:grid;
 	grid-template-rows: max-content max-content max-content;
 	margin: 0px;
 	border: 0px;
 }
 
+.page1{
+	background-color: #1B1734;
+    	height: 100%;
+    	z-index: -3;
+}
+
+.page2{
+	background-color: #b8d8ba;
+    	height: 100%;
+    	z-index: -3;
+}
+.page3{
+	background-color: #71a9f7;
+    	height: 100%;
+    	z-index: -3;
+}
 #background {
     	display: grid;
     	position: absolute;
@@ -43,7 +58,7 @@ body{
 h1 {
     	font-size: 5vh;
 	font-family: 'Inconsolata', monospace;
-	color: #ff7e43;
+	color: #fc9f5b;
 
 }
 
