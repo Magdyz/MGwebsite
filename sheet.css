@@ -4,6 +4,7 @@ body{
 	display:grid;
 	grid-template-rows: 10ch 20ch 20ch;
 	justify-items: start;
+	margin: 4em;
 }
 
 div#introText {
