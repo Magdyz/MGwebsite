@@ -17,7 +17,6 @@ body{
 ,.page5{
 	margin-bottom: 40em;
 }
-
 #topBar {
     margin: 2em;
 }
@@ -36,7 +35,6 @@ body{
     	width: 5rem;
     	height: auto;
     	opacity: 1;
-    	transition: opacity .15s ease-out;
 }
 
 h1 {
@@ -51,7 +49,7 @@ h1.restOfText {
     	margin-left: 0.3em;
 }
 
-ul.listVideo {
+ul {
     display: flex;
     width: 50rem;
     justify-content: space-between;
