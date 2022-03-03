@@ -54,3 +54,9 @@ h1 {
 h1.restOfText {
     	margin-left: 0.3em;
 }
+
+ul.listVideo {
+    display: flex;
+    width: 50rem;
+    justify-content: space-between;
+}
