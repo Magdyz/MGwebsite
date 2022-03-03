@@ -48,14 +48,14 @@ body{
 }
 
 #logo {
-    	width: 10vh;
+    	width: 5rem;
     	height: auto;
     	opacity: 1;
     	transition: opacity .15s ease-out;
 }
 
 h1 {
-    	font-size: 5vh;
+    	font-size: 5rem;
 	font-family: 'Inconsolata', monospace;
 	color: #fc9f5b;
 
