@@ -12,17 +12,6 @@ body{
     	z-index: -3;
 }
 
-.page2{
-	background-color: #b8d8ba;
-    	height: 100%;
-    	z-index: -3;
-}
-.page3{
-	background-color: #71a9f7;
-    	height: 100%;
-    	z-index: -3;
-}
-
 #background {
     display: grid;
     position: fixed;
