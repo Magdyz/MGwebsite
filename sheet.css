@@ -60,3 +60,10 @@ ul.listVideo {
     width: 50rem;
     justify-content: space-between;
 }
+
+li {
+    font-size: 2rem;
+	font-family: 'Inconsolata', monospace;
+	color: #d44ee6;
+	list-style-type: none;
+}
