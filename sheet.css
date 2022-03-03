@@ -10,6 +10,13 @@ body{
 	background-color: #1B1734;
 }
 
+.page1
+,.page2
+,.page3
+,.page4
+,.page5{
+	margin-bottom: 40em;
+}
 
 #topBar {
     margin: 2em;
