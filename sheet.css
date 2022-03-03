@@ -1,69 +1,57 @@
+body {
+  display: grid;
+  grid - template - rows: max - content max - content max - content;
+  margin: 0 px;
+  border: 0 px;
+  background - image: url("./assets/face.png");
+  background - attachment: fixed;
+  background - position: 50 % 0 % ;
+  background - repeat: repeat - y;
+  background - color: #1B1734;
 
-body{
-	display:grid;
-	grid-template-rows: max-content max-content max-content;
-	margin: 0px;
-	border: 0px;
 }
 
-.page1{
-	background-color: #1B1734;
-    	height: 100%;
-    	z-index: -3;
-}
+# topBar {
+      margin: 2 em;
+    }
 
-#background {
+    .midConainer,
+  .midConainer2,
+  .midConainer3,
+  .midConainer4,
+  .midConainer5 {
     display: grid;
-    position: fixed;
-    z-index: -1;
-    width: 100%;
+    margin: 1 em 3 em 0;
+    justify - items: center;
+  }
+
+  #logo {
+    width: 5 rem;
     height: auto;
-    justify-content: center;
-}
+    opacity: 1;
+    transition: opacity .15 s ease - out;
+  }
 
-#topBar {
-    margin: 2em;
-}
+  h1 {
+    font - size: 5 rem;
+    font - family: 'Inconsolata', monospace;
+    color: #fc9f5b;
 
-.midConainer {
-    display: grid;
-    margin: 1em 3em 0;
-    justify-items: center;
-}
+  }
 
-#introText {
-    	display: flex;
-    	flex-wrap: wrap;
-}
+  h1.restOfText {
+    margin - left: 0.3 em;
+  }
 
-#logo {
-    	width: 5rem;
-    	height: auto;
-    	opacity: 1;
-    	transition: opacity .15s ease-out;
-}
-
-h1 {
-    	font-size: 5rem;
-	font-family: 'Inconsolata', monospace;
-	color: #fc9f5b;
-
-}
-
-
-h1.restOfText {
-    	margin-left: 0.3em;
-}
-
-ul.listVideo {
+  ul.listVideo {
     display: flex;
-    width: 50rem;
-    justify-content: space-between;
-}
+    width: 50 rem;
+    justify - content: space - between;
+  }
 
-li {
-    font-size: 2rem;
-	font-family: 'Inconsolata', monospace;
-	color: #d44ee6;
-	list-style-type: none;
-}
+  li {
+    font - size: 2 rem;
+    font - family: 'Source Code Pro', monospace;
+    color: #d44ee6;
+    list - style - type: none;
+  }
