@@ -105,3 +105,11 @@ to { transform: rotate( 0deg ); }
     align-items: center;
     flex-direction: column;
 }
+
+div#socialMedia {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
