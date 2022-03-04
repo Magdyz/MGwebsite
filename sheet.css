@@ -138,3 +138,9 @@ div#socialMedia {
     width: 13em;
     border-radius: 30%;
 }
+
+img.VideoCameraPic:hover
+,.laptopPic:hover
+,.YoutubePic:hover {
+    cursor: pointer;
+}
