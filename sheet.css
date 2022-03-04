@@ -54,12 +54,12 @@ h1 {
 		color: #fc9f5b;
 
 }
-
-
 h1.restOfText {
     	margin-left: 0.3em;
 }
-
+h1.expert {
+    text-decoration-line: line-through;
+}
 ul {
     display: flex;
     width: 50rem;
@@ -81,6 +81,12 @@ li {
 
 }
 
+.YoutubePic
+,.laptopCodingPic
+, .VideoCameraPic{
+    animation: animate steps(4) 2.5s infinite;
+}
+
 @keyframes animate
 {
 0% { transform: rotate( 0deg); }
@@ -88,4 +94,11 @@ li {
 50% {transform: rotate( 5deg ) ;}
  70%{transform: rotate( 2deg);}
 to { transform: rotate( 0deg ); }
+}
+
+#codingIntro
+, #linksToWebsites {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
