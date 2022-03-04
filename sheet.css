@@ -10,6 +10,7 @@ body{
 	background-color: #1B1734;
 }
 
+<<<<<<< HEAD
 .page2 {
     backdrop-filter: sepia(1);
 }
@@ -27,6 +28,15 @@ body{
 ,.page5{
 	margin-bottom: 40em;
 }
+=======
+.page1
+,.page2
+,.page3
+,.page4
+,.page5{
+	margin-bottom: 40em;
+}
+>>>>>>> 2b95fcec2e0e6e4ab7f997c8440258fa964109aa
 #topBar {
     margin: 2em;
 	position: fixed;
@@ -57,9 +67,13 @@ h1 {
 h1.restOfText {
     	margin-left: 0.3em;
 }
+<<<<<<< HEAD
 h1.expert {
     text-decoration-line: line-through;
 }
+=======
+
+>>>>>>> 2b95fcec2e0e6e4ab7f997c8440258fa964109aa
 ul {
     display: flex;
     width: 50rem;
