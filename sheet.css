@@ -144,3 +144,8 @@ img.VideoCameraPic:hover
 ,.YoutubePic:hover {
     cursor: pointer;
 }
+
+.connectButton{
+    text-decoration: blink;
+	
+}
